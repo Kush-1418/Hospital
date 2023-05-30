@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Staff SignUp</title>
+</head>
+<h1>Enter Staff Details</h1>
+<body>
+    <fieldset>
+        <legend>Form</legend>
+    <form action="StaffSignup" method="post">
+        
+        <table>
+       
+            <tr>
+                <td>
+                    <label for="aa">Name</label>
+                </td>
+                <td>
+                    <input type="text" id="aa" name="name">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="bb">E-mail</label>
+                </td>
+                <td>
+                    <input type="email" id="bb" name="mail">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="cc">Password</label>
+                </td>
+                <td>
+                    <input type="password" id="cc" name="password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="dd">Mobile</label>
+                </td>
+                <td>
+                    <input type="tel" pattern="{0-9}[10]" id="dd" name="mobile">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="ee">DOB</label>
+                </td>
+                <td>
+                    <input type="date" id="ee" name="birthdate">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="f">Gender</label>
+                </td>
+                <td>
+                    <input type="radio" id="f" name="male" value="Male">Male
+                    <input type="radio" id="f" name="female" value="Male">Female
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button>Cancel</button>
+                </td>
+                <td><button>Save</button></td>
+            </tr>
+        </table>
+    </form>
+</fieldset>
+</body>
+</html>
